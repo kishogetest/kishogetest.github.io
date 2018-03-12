@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Our CanSat Page</title>
+<meta charset="UTF-8">
+ <link rel="shortcut icon" href="https://openclipart.org/detail/280869/soda-can" type="image/png" sizes="16x16">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+	background-color: 	 #0d0d0d;
+}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px;}
+.button{}
+.button:hover{}
+.social{ color: #66FCF1;}
+.social:hover {
+    color: white;
+}
+.new{
+text-decoration:none;
+display: block;
+font-size: 25px;}
+.a:hover{ 
+color: #a3a3a3;
+}
+
+</style>
+</head>
+<body>
+<header>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div style="color: #66FCF1;background-color:  #000000;" class="w3-bar w3-card" id="myNavbar">
+ <a href="#home" class="w3-bar-item w3-button w3-wide"><b>CanSat</b></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-right w3-top w3-hide-medium w3-hide-large" style="display:none; height: 1000px;" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+</header>
+<!-- Header with full-height image -->
+<p>Welcome to Our Website</p>
+<!-- Slideshow -->
+  <div style ="color: #1F2833;" class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="" style="width:100%">
+      <div class="w3-display-top-left w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Lorem ipsum</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="/w3images/workbench.jpg" style="width:100%">
+      <div class="w3-display-middle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Klorim tipsum</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="/w3images/sound.jpg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Blorum pipsum</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div style="background-color: #04c8bb;" class="w3-container w3-padding w3-large">
+           <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-left w3-hover-text-white"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-right w3-hover-text-white"></i></div>
+      <div style="color: #66FCF1;" class="w3-center">
+        <span class="w3-tag demodots w3-hover-black" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-hover-black" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-hover-black" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+<!-- About Section -->
+<div class="w3-display-container w3-content" style="max-width:1500px;" id="about">
+ <center><img  src="http://portal.andina.com.pe/EDPFotografia3/thumbnail/2017/08/10/000441603M.jpg"  style="opacity: 0.3;  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */;filter: grayscale(100%);" width="1487" height="auto"></center>
+  <div class="w3-display-middle w3-center">
+        <div class="w3-container"><h3 class="w3-center" style="color: #04c8bb;"><strong>WHAT'S CANSAT ABOUT?</strong></h3>
+   <div style="height: 120px; width: 850px;font-size: 18px;padding: 5px;color: white;">
+  A CanSat is a simulation of a real satellite, integrated within the volume and shape of a soft drink can.
+  The challenge for the students is to fit all the major subsystems found in a satellite, such as power, sensors and a communication system, into this minimal volume.
+  The CanSat is then launched to an altitude of a few hundred metres by a rocket or dropped from a platform or captive balloon and its mission begins: to carry out a scientific experiment and achieve a safe landing.
+  <h3 class="w3-center" style="color: #04c8bb;"><strong>The Requirements</strong></h3>
+ </div>
+  </center>
+ <br> <div class="w3-row-padding w3-center" style="margin-top:64px;padding: 5px;font-size: 13.5px;">
+    <div class="w3-quarter">
+     <i style="color: #66FCF1;"> <i class="	fa fa-gears w3-margin-bottom w3-jumbo w3-center"></i></i>
+      <p  style="color: #cdfefb;" class="w3-large">Technicalities</p>
+      <p  style="color: white;">All the components of the CanSat must fit inside a standard soda can (115 mm height and 66 mm diameter), except the parachute. Radio and GPS antennas can be mounted externally (on the top or bottom of the can, but not on the sides).
+N.B. 
+The antennas, transducers and other elements of the CanSat cannot extend beyond the can’s diameter until it has left the launch vehicle.
+The mass of the CanSat must be between 300 and 350 grams. CanSats that are lighter must take additional ballast with them to reach the 300 grams minimum mass limit required.</p>
+    </div>
+    <div class="w3-quarter">
+    	<i style="color: #66FCF1;" class="fa fa-balance-scale w3-margin-bottom w3-jumbo"></i>
+      <p  style="color: #cdfefb;" class="w3-large">Measurements</p>
+      <p  style="color: white;">The parachute connection must be able to withstand up to 1000 N of force. The strength of the parachute must be tested  to ensure  that the system will operate nominally.
+For recovery reasons, a maximum flight time of 120 seconds is recommended. If attempting a directed landing, then a maximum of 170 seconds flight time is recommended.
+A descent rate between 8 and 11 m/s is recommended for recovery reasons. In case of a directed landing, a lower descent rate of 6m/s is recommended. 
+The CanSat must be able to withstand an acceleration of up to 20 g.
+The total budget of the final CanSat model should not exceed 500€.</p>
+    </div>
+    <div class="w3-quarter">
+      <i style="color: #66FCF1;" class="fa fa-battery-full w3-margin-bottom w3-jumbo"></i>
+      <p  style="color: #cdfefb;" class="w3-large">Durability</p>
+      <p  style="color: white;">The CanSat must be powered by a battery and/or solar panels. It must be possible for the systems to be switched on for four continuous hours.
+The battery must be accessible in case it has to be replaced/recharged.
+The CanSat must have an accessible master power switch.
+Inclusion of a retrieval system (beeper, radio beacon, GPS, etc.) is recommended.
+The CanSat should have a recovery system, such as a parachute, capable of being reused after launch. It is recommended to use brightly-coloured fabric ,so that it is easier to see after the launch.</p>
+    </div>
+    <div class="w3-quarter">
+      <i style="color: #66FCF1;" class="fa fa-globe w3-margin-bottom w3-jumbo"></i>
+      <p style="color: #cdfefb;" class="w3-large">Outreach</p>
+      <p  style="color: white;">Each team must educate and promote the CanSat challenge through different media outlets.These would include social media,local newspaper and newsagents.
+	  Each team may also promote CanSat by going to different schools and telling them about the CanSat challenge.
+	  Teams can furthermore promote CanSat through blogs.Each team would do well to remember that teamwork is also imperative in this competition. </p>
+	  </div>
+    </div>
+  </div>
+   </div>
+   </div>
+</div>
+
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px;background-color: #0d0d0d;color: white;" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+ <center style="color: grey;font-size: 14px;"><b> and their roles</b></center>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div style="background-color: #252525; " class="w3-card">
+        <div class="w3-container">
+          <h3>Jordan Ahern</h3>
+          <p class="w3-opacity">Main coder</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div style="background-color: #252525; " class="w3-card">
+        <div class="w3-container">
+          <h3>Anna Buda</h3>
+          <p class="w3-opacity">Social Media manager</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div style="background-color: #252525; " class="w3-card">
+        <div class="w3-container">
+          <h3>Sabrina Boc</h3>
+          <p class="w3-opacity">Web Designer</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div style="background-color: #252525; " class="w3-card">
+        <div class="w3-container">
+          <h3>Isabel Azu</h3>
+          <p class="w3-opacity">Web Designer and Parachute Manager</p>
+        </div>
+      </div>
+    </div>
+     <div class="w3-col l3 m6 w3-margin-bottom">
+      <div style="background-color: #252525; " class="w3-card">
+        <div class="w3-container">
+          <h3>Oscar Gomez Keenan</h3>
+          <p class="w3-opacity">General Outreach Manager</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div style="background-color: #252525; " class="w3-card w3">
+        <div class="w3-container">
+          <h3>Eryn Prudente</h3>
+          <p class="w3-opacity">Designer</p>
+        </div>
+      </div>
+    </div>
+     <div class="w3-col l3 m6 w3-margin-bottom">
+      <div style="background-color: #252525; " class="w3-card w3">
+        <div class="w3-container">
+          <h3>Liyana</h3>
+          <p class="w3-opacity">Web Designer</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div style="background-color: #252525; " class="w3-card">
+        <div class="w3-container">
+          <h3>Dylan Dolan</h3>
+          <p class="w3-opacity">Designer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-container" style="padding:128px 16px;background-color: #40a6a6;" id="work">
+  <h3 class="w3-center">OUR WORK</h3>
+  <p class="w3-center w3-large">What we've done over the course of the competition</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_drone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_sound.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_camera.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_typewriter.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Skills Section -->
+<div style="background-color: #000000;color: white;" class="w3-container w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Skills assessed when evaluating scores</h3>
+     <ul><li> <p>The Jury will consider the quality of the Pre-launch Report and the team
+presentations,<br> and how much the team appears to have
+learned throughout the project.</li></p>
+<li>Innovative aspects of the project will be judged (e.g. the mission selected and the
+hardware/software used). The jury will also take into account how the teams <br>obtained the
+results, how reliable and robust the CanSat was,<br> and how the CanSat performed.</li></p>
+<p><li>The Jury will assess how well the team worked together on the assignment,<br> the distribution of
+tasks, the planning and execution of the project,<br>and the team’s success in obtaining the
+necessary funding and advice.</li></p>
+<li>The team will be awarded points on how well the project was communicated<br> to their school and their local community, taking into account web pages,<br> presentations, media coverage, etc.</li></p>
+</ul>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Technical Achievement</p>
+      <div style="color: #8c8c8c;">
+        <div class="w3-container w3-center" style="width:50%;background-color: #303030;color: white;padding: 8px;font-size: 18px;">50%</div>
+      </div>
+	  <p class="w3-wide"><i class="	fa fa-graduation-cap w3-margin-right"></i>Educational Value</p>
+      <div style="color: #8c8c8c;">
+        <div class="w3-container w3-center" style="width:20%;background-color: #303030;color: white;padding: 8px;font-size: 18px;">20%</div>
+      </div>
+	  <p class="w3-wide"><i class="fa fa-handshake-o w3-margin-right"></i>Outreach</p>
+      <div style="color: #8c8c8c;">
+        <div class="w3-container w3-center" style="width:15%;background-color: #303030;color: white;padding: 8px;font-size: 18px;">15%</div>
+      </div>
+	  <p class="w3-wide"><i class="fa fa-users w3-margin-right"></i>Teamwork</p>
+      <div style="color: #8c8c8c;">
+        <div class="w3-container w3-center" style="width:15%;background-color: #303030;color: white;padding: 8px;font-size: 18px;">15%</div>
+      </div>
+	  
+      
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+
+     <div class="w3-container w3-padding-64 " style="background-color: #d0d0d0;">
+	 <h3 class="w3-center">For More Information</h3>
+	<center><a href="http://esamultimedia.esa.int/docs/edu/2018_European_CanSat_Competition_Guidelines.pdf"> <i class="	fa fa-file-pdf-o w3-margin-left" style="font-size: 50px;"></i>
+	 <p class ="new" style="text-decoration: none;">Click Here</p></a></center>
+	 </div>
+
+<!-- Contact Section -->
+<div class="w3-container " style="padding:128px 16px; background-color: #40a6a6" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Sponsor Our Team</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div style="font-size: 20px;" class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Dublin, IE</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+      <br>
+    
+    </div>
+    <div style="padding: 8px;" class="w3-half">
+      <!-- Add Google Maps -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.3929372300517!2d-6.42786688437406!3d53.33622198317096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486773058a0701b7%3A0xa19ec511c3142b93!2sKishoge+Community+College!5e0!3m2!1sen!2sie!4v1518443012837" width="100%" height="510" frameborder="0.6" style="border: solid black 3.5px;opacity: 0.75 ;float: right;w3-greyscale-max;" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <div class="w3-xlarge w3-section w3-row-padding w3-center">
+   <a href=""> <i class="fa fa-facebook-official social"></i></a>
+   <a href=""> <i class="fa fa-instagram social"></i></a>
+   <a href=" "><i class="fa fa-pinterest-p social"></i></a>
+   <a href=" "><i class="fa fa-twitter social"></i></a>
+ 
+  </div>
+  <p>Css sourced by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-cyan">w3.css</a></p>
+   <p>Information sourced by <a href="http://m.esa.int/Education/CanSat/What_is_a_CanSat" title="ESA" target="_blank" class="w3-hover-text-cyan">ESA</a></p>
+</footer>
+ 
+<!-- Add Google Maps -->
+<script>
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
